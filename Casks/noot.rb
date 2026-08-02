@@ -14,7 +14,7 @@ cask "noot" do
       xattr -dr com.apple.quarantine /Applications/Noot.app
     (or right-click -> Open).
 
-    Grant Accessibility (for the double-shift toggle) and Documents access
+    Grant Accessibility (for the double-command toggle) and Documents access
     on first run. Notes live in ~/Documents/Noot as plain .md files.
   EOS
 end
