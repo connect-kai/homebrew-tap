@@ -10,8 +10,9 @@ cask "noot" do
   app "Noot.app"
 
   caveats <<~EOS
-    Noot is ad-hoc signed (not notarized). Install with --no-quarantine,
-    or right-click -> Open on first launch.
+    Noot is ad-hoc signed (not notarized). Clear quarantine before first launch:
+      xattr -dr com.apple.quarantine /Applications/Noot.app
+    (or right-click -> Open).
 
     Grant Accessibility (for the double-shift toggle) and Documents access
     on first run. Notes live in ~/Documents/Noot as plain .md files.

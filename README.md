@@ -1,5 +1,5 @@
 # homebrew-tap
 
 ```sh
-brew install --cask --no-quarantine connect-kai/tap/noot
+brew install --cask connect-kai/tap/noot
 ```
