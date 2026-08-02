@@ -7,8 +7,6 @@ cask "noot" do
   desc "Floating markdown scratchpad for macOS, Raycast Notes style"
   homepage "https://github.com/connect-kai/noot"
 
-  depends_on macos: ">= :ventura"
-
   app "Noot.app"
 
   caveats <<~EOS
