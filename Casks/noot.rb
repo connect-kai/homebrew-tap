@@ -1,6 +1,6 @@
 cask "noot" do
-  version "1.4.0"
-  sha256 "e5389f32aee3fe58484658a8cad074c93a20af7c23984c61ca7ba98bab1cee6e"
+  version "1.4.1"
+  sha256 "0efaa53c5a33ae33e111ad4a66ed832e376e6b969959cc6bcedee6a1a8cecba1"
 
   url "https://github.com/connect-kai/noot/releases/download/v#{version}/Noot-#{version}.zip"
   name "Noot"
